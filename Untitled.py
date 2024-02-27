@@ -43,9 +43,6 @@ print(data.describe())
 # In[5]:
 
 
-# Clean data (if necessary)
-# Handle missing values, outliers, etc.
-
 # Split data into features and target variable
 X = data.drop('Class', axis=1)
 y = data['Class']
